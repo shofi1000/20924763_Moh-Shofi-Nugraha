@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Detail Produk</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Wear Me Gallery</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="produk1.html">Produk</a>
+            <a href="kontak.html">Kontak</a>
+            <a href="keranjang.html">Keranjang</a>
+        </nav>
+    </header>
+
+<main>
+    <section class="search-box">
+        <input type="text" id="search-input" placeholder="Cari produk..." onkeyup="cariProduk()">
+    </section>
+
+    <section class="produk-grid">
+    <div class="produk">
+        <img src="img/batik.jpg" alt="Batik Pria">
+        <h2>Batik Pria</h2>
+        <p class="harga">Rp150.000</p>
+        <p>Batik ini cocok untuk acara formal dan non formal.</p>
+        <button onclick="beliProduk('Batik Pria', 150000)">Beli</button>
+    </div>
+    
+    <div class="produk">
+        <img src="img/motif2.jpg" alt="Kemeja Motif Simple">
+        <h2>Kemeja Motif Simple</h2>
+        <p class="harga">Rp80.000</p>
+        <p>Dengan motif yang simple, cocok digunakan dalam kegiatan apapun.</p>
+        <button onclick="beliProduk('Kemeja Motif Simple', 80000)">Beli</button>
+    </div>
+    
+    <div class="produk">
+        <img src="img/motif1.jpg" alt="Kemeja Motif Abstrak">
+        <h2>Kemeja Motif Abstrak</h2>
+        <p class="harga">Rp85.000</p>
+        <p>Kemeja santai yang cocok untuk digunakan sehari-hari.</p>
+        <button onclick="beliProduk('Kemeja Motif Abstrak', 85000)">Beli</button>
+    </div>
+    
+    <div class="produk">
+        <img src="img/olahraga.jpg" alt="Pakaian Olahraga">
+        <h2>Pakaian Olahraga</h2>
+        <p class="harga">Rp70.000</p>
+        <p>Dengan bahan yang mudah menyerap keringat, cocok untuk semua kegiatan olahraga.</p>
+        <button onclick="beliProduk('Pakaian Olahraga', 70000)">Beli</button>
+    </div>
+    
+    <div class="produk">
+        <img src="img/kemeja.jpg" alt="Kemeja Polos">
+        <h2>Kemeja Polos</h2>
+        <p class="harga">Rp120.000</p>
+        <p>Kemeja polos elegan yang cocok untuk acara-acara formal.</p>
+        <button onclick="beliProduk('Kemeja Polos', 120000)">Beli</button>
+    </div>
+    
+    <div class="produk">
+        <img src="img/crewneck.jpg" alt="Crewneck">
+        <h2>Crewneck</h2>
+        <p class="harga">Rp180.000</p>
+        <p>Crewneck yang hangat dan nyaman cocok digunakan di cuaca dingin.</p>
+        <button onclick="beliProduk('Crewneck', 180000)">Beli</button>
+    </div>
+    
+    <div class="produk">
+        <img src="img/kotak.jpg" alt="Kemeja Kotak-kotak">
+        <h2>Kemeja Kotak-kotak</h2>
+        <p class="harga">Rp180.000</p>
+        <p>Kemeja casual namun santai, cocok untuk acara santai.</p>
+        <button onclick="beliProduk('Kemeja Kotak-kotak', 180000)">Beli</button>
+    </div>
+    
+    <div class="produk">
+        <img src="img/kaos.jpg" alt="Kaos Premium">
+        <h2>Kaos Premium</h2>
+        <p class="harga">Rp180.000</p>
+        <p>Kaos dengan bahan premium, cocok digunakan sehari-hari.</p>
+        <button onclick="beliProduk('Kaos Premium', 180000)">Beli</button>
+    </div>    
+    </section>
+</main>
+
+<footer>
+    <p>Hubungi kami: WearMeGallery@gmail.com | 0812-3456-7890</p>
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
